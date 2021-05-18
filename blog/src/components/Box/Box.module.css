@@ -1,0 +1,43 @@
+.logos
+{
+	width:40%;
+	height:40%;
+}
+
+.box
+{
+
+	margin-left:6%;
+    width:20%;
+    padding:1%;
+   
+    display:inline-block;
+
+}
+.box:hover .txt
+{
+	color:darkgreen;
+}
+.box:hover .txt2
+{
+	color:blue;
+}
+.box:hover 
+{
+ 
+ background-color: #e6edda;
+ box-shadow: 5px 5px grey;
+
+}
+.txt2
+{
+	text-align: center;
+	font-size: 100%;
+	font-family: "Dosis";
+	margin-top:1%;
+}
+.txt
+{
+	font-weight: bold;
+	font-size: 200%;
+}
