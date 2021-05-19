@@ -5,12 +5,13 @@ import {
   BrowserRouter as Router ,
   Switch,
   Route,
-  Link
+  Link,
+
 } from "react-router-dom";
 
 const page1=()=>(
 	<div id="page1" >
-	
+
 	<Oops />
 	<NoButYes />
 	
@@ -64,10 +65,14 @@ const Java_comp = () => (
      
        <Router>
        <Route   path="/1" component={page1} />
-       <Route exact  path="/" component={page1} />
+       
+       
+       <Route exact  path="/java" component={page1} />
        <Route path="/2" component={page2} />
        <div id="pagenodiv" className={styles.pagenodiv}>
        <Link className={styles.pages} to="/1" >1</Link>
+        
+        
        <Link className={styles.pages} to="/2" >2</Link>
        <Link className={styles.pages} to="/3" >3</Link>
         

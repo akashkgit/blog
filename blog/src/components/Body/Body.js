@@ -2,6 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Body.module.css';
 import  Java_comp from "../Java_comp/Java_comp";
+import  C_comp from "../C_comp/C_comp";
+import  Python_comp from "../Python_comp/Python_comp";
+import  Ds_comp from "../Ds_comp/Ds_comp";
+import  Os_comp from "../Os_comp/Os_comp";
+import  Project_comp from "../Project_comp/Project_comp";
+import  Music_comp from "../Music_comp/Music_comp";
+import  Books_comp from "../Books_comp/Books_comp";
+import  StickyNotes_comp from "../StickyNotes_comp/StickyNotes_comp";
 
 import open from "../../img/open2.png";
 import {
@@ -57,16 +65,16 @@ const Body = () => (
    
  </div>
  <div id="router_comp" className={styles.router_comp} >
-  <Route exact  to="/" />
-  <Route exact to="/java" component={Java_comp} />
-  <Route exact to="/c" component={C_comp} />
-  <Route exact to="/python" component={Python_comp} />
-  <Route exact to="/ds" component={Ds_comp} />
-  <Route exact to="/os" component={Os_comp} />
-  <Route exact to="/project" component={Project_comp} />
-  <Route exact to="/music" component={Music_comp} />
-  <Route exact to="/books" component={Books_comp} />
-  <Route exact to="/sticky notes" component={StickyNotes_comp} />
+  <Route exact  path="/" />
+  <Route exact path="/java" component={Java_comp} />
+  <Route exact path="/c" component={C_comp} />
+  <Route exact path="/python" component={Python_comp} />
+  <Route exact path="/ds" component={Ds_comp} />
+  <Route exact path="/os" component={Os_comp} />
+  <Route exact path="/project" component={Project_comp} />
+  <Route exact path="/music" component={Music_comp} />
+  <Route exact path="/books" component={Books_comp} />
+  <Route exact path="/sticky notes" component={StickyNotes_comp} />
 
 
   </div> 
