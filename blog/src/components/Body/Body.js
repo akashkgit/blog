@@ -50,7 +50,7 @@ const Body = () => (
   <div className={styles.body}  id="body">
 <img src={open}  onClick={show} className={styles.open} id="open" alt="error"    />
    <Router>
-   <div id="router" onClick={hide}>
+   <div id="router" onClick={hide} className={styles.router}>
   <Link to="/java" ><Box  id="one" src={java} txt="Java notes" txt2="I dicuss about various important concepts in java that I have felt is quite baffling and significant to get a command over this"/></Link>
   <Link to="/c" ><Box id="two" src={c} txt="C & C++ Notes" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>
   <Link to="/python" ><Box src={python} txt="Python Bites" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>

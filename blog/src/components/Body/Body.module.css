@@ -6,8 +6,8 @@
 	color:black;
 	background-color:#f3f5f0;
 	padding-bottom:1%;
-	
-	
+
+   	
 	
 }
 .auth
@@ -25,3 +25,8 @@ margin-left:1%;
 margin-top:1%;
 
 }
+.router
+{
+	margin-left:10%;
+}
+
