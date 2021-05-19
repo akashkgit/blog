@@ -1,3 +1,4 @@
+
 import {Component} from 'react';
 import PropTypes from 'prop-types';
 import i from '../../img/phone.png';
@@ -8,15 +9,34 @@ import styles from './Header.module.css';
 
 
 class Header extends Component{
+constructor()
+{
+
+	super();
+	this.scroll = this.scroll.bind(this);
+}
+clickk()
+{
+var auth=document.getElementById("auth");
 
 
+auth.scrollIntoView(true);
+
+}
+
+scroll()
+{
+
+
+	document.getElementByClassName('body').style.backgroundColor="red";
+}
 render()
 {
 	 return (
 		 	(
 		 		<div className={styles.header}>
 		 	    <center className={styles.one} >The Maverick!</center>
-		 	     <center className={styles.two} >Akash Kumar</center>
+		 	     <center className={styles.two} onClick={this.clickk}>Akash Kumar</center>
 		 		
 		 		<center className={styles.ancestor}>
 		 		<center  className={styles.details}>

@@ -14,3 +14,18 @@
 { clear:both;
 	background-color:#a8ede6;
 }
+
+.open
+{
+
+width:2%;
+height:2%;
+display:none;
+margin-left:1%;
+margin-top:1%;
+
+}
+.router_comp
+{
+	display:none;
+}
