@@ -275,28 +275,17 @@ const Threads=()=>(
 
 	);
 const page2=()=>(
-	<div id="page1" >
+	<div id="page2" >
     <div className={styles.divoddtop} >
 	
 	<Virtualisation />
    <Trap />
   <HyperCalls />
-	<MemVirt />
-	<DevVirt />
-
-	<OsTypes />
-	<Linux />
-	<Process1 />
 	
 	</div>
 	<div className={styles.diveventop} >
-    <Threads />
-    <ThreadTypes />
-    <Threadsjoin />
-    <ThreadPattern />
-    <Calls />
-    <Mutex />
-
+    <MemVirt />
+  <DevVirt />
 
 	</div>
 	

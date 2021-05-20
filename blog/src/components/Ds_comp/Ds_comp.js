@@ -4,7 +4,7 @@ import styles from './Ds_comp.module.css';
 
 const Ds_comp = () => (
   <div className={styles.Ds_comp}>
-    Ds_comp Component
+    <center><p>Comming Soon!</p></center>
   </div>
 );
 

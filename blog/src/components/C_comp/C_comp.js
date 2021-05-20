@@ -4,7 +4,7 @@ import styles from './C_comp.module.css';
 
 const C_comp = () => (
   <div className={styles.C_comp}>
-    C_comp Component
+  <center><p>Comming Soon!</p></center>
   </div>
 );
 

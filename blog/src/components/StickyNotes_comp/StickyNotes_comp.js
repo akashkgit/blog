@@ -4,7 +4,7 @@ import styles from './StickyNotes_comp.module.css';
 
 const StickyNotes_comp = () => (
   <div className={styles.StickyNotes_comp}>
-    StickyNotes_comp Component
+    <center><p>Comming Soon!</p></center>
   </div>
 );
 

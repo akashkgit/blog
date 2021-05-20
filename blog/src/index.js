@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/Header/Header';
 import Body from  './components/Body/Body';
 
+import author from './img/author2.JPG';
+import Author from './components/Author/Author';
 
 import styles from  './index.css';
 import {
@@ -20,6 +22,9 @@ ReactDOM.render(
 	<div className={styles.index}>
   <Header />
   <Body />
+  <div className={styles.auth} >
+  <Author />
+  </div>
   </div>
   ,
   document.getElementById('root')
