@@ -7,6 +7,7 @@
 	background-color:#f3f5f0;
 	padding-bottom:1%;
 
+
    	
 	
 }
@@ -14,7 +15,13 @@
 { clear:both;
 	background-color:#a8ede6;
 }
+.boxed
+{
+	width:65%;
+	height:10%;
+	
 
+}
 .open
 {
 
@@ -23,10 +30,34 @@ height:2%;
 display:none;
 margin-left:1%;
 margin-top:1%;
+margin-right:0%;
+float:left;
 
+position:sticky;
+top:5%
+
+}
+
+.open:hover + p
+{
+	display:inline;
+	background-color:white;
+	opacity:0.6;
+	border:1px solid grey;
 }
 .router
 {
 	margin-left:10%;
 }
 
+.expand
+{   display:inline;
+	display:none;
+	position:absolute;
+	margin-top:0%;
+	padding:0.3%;
+	font-size:100%;
+
+	
+	
+}

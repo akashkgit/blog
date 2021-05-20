@@ -11,7 +11,7 @@ import  Music_comp from "../Music_comp/Music_comp";
 import  Books_comp from "../Books_comp/Books_comp";
 import  StickyNotes_comp from "../StickyNotes_comp/StickyNotes_comp";
 
-import open from "../../img/open2.png";
+import open from "../../img/open3.png";
 import {
   BrowserRouter as Router ,
   Switch,
@@ -48,18 +48,25 @@ document.getElementById("router_comp").style.display='none';
 }
 const Body = () => (
   <div className={styles.body}  id="body">
+  <div className={styles.box}>
 <img src={open}  onClick={show} className={styles.open} id="open" alt="error"    />
+<p className={styles.expand}> Expand</p>
+</div>
    <Router>
    <div id="router" onClick={hide} className={styles.router}>
-  <Link to="/java" ><Box  id="one" src={java} txt="Java notes" txt2="I dicuss about various important concepts in java that I have felt is quite baffling and significant to get a command over this"/></Link>
-  <Link to="/c" ><Box id="two" src={c} txt="C & C++ Notes" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>
-  <Link to="/python" ><Box src={python} txt="Python Bites" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>
-  <Link to="/ds" ><Box src={ds} txt="My Data Structure Dictionary" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>
-  <Link to="/os" ><Box src={os} txt="Operating System Overview" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>
-  <Link to="/project" ><Box src={project} txt="Project Arena" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>
-  <Link to="/music hall" ><Box src={music} txt="Music Hall" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>
-  <Link to="/book" ><Box src={book} txt="The enlightment of Books" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>
-  <Link to="/sticky notes" ><Box src={random} txt="Sticky notes" txt2="This has some of the intruiging yet ambivalent concepts that I have gone though and felt its worth taking a note"/></Link>
+  <Link to="/os" ><Box src={os} txt="Operating System Overview" txt2="A click on this will open a list of interesting quick snippets of OS concepts"/></Link>
+  <Link to="/java" ><Box  id="one" src={java} txt="Java Scripts" txt2="I dicuss about various important concepts in java that I have felt is quite baffling and significant to get a command over this"/></Link>
+  
+  <Link to="/project" ><Box src={project} txt="Project Arena" txt2="Open this arena to find the playlist of some of my project works in my college days"/></Link>
+  <Link to="/music" ><Box src={music} txt="Music Hall" txt2="Unlock this Hall to listen some of my musical plays that I do during my free time!"/></Link>
+  <Link to="/c" ><Box id="two" src={c} txt="C & C++ Notes" txt2="This has some of the intruiging yet ambivalent C& C++concepts that I have gone through and felt its worth taking a note"/></Link>
+  <Link to="/python" ><Box src={python} txt="Python Bites" txt2="This has some of the intruiging yet ambivalent python concepts that I have gone through and felt its worth taking a note"/></Link>
+  <Link to="/ds" ><Box src={ds} txt="My Data Structure Dictionary" txt2="Here, I jot down some of the Data Structure concepts for a quick glance!"/></Link>
+
+
+  
+  <Link to="/book" ><Box src={book} txt="The enlightment of Books" txt2="Get Enlightened by reading some of my hand picked verses from good proficient Books that had piqued my interest "/></Link>
+  <Link to="/sticky notes" ><Box src={random} txt="Sticky notes" txt2="Unpin this to see some of my miscellanious notes that I have taken on the go."/></Link>
   <br />
   <br />
    

@@ -114,7 +114,7 @@ center p
 	animation-name: onee;
 	animation-fill-mode: forwards;
 	animation-duration:4s;
-	animation-delay:4s;
+	animation-delay:2s;
 
 }
 .ancestor
@@ -128,7 +128,7 @@ center p
 
 	animation-fill-mode: forwards;
 	animation-duration:4s;
-	animation-delay:6s;	
+	animation-delay:5s;	
 	opacity: 0;
 	margin-left:1px;
 }
